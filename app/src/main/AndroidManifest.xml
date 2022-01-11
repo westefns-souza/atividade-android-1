@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividade_android_1">
         <activity
+            android:name=".DetalhesAgendamentoActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
